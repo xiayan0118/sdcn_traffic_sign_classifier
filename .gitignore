@@ -1,4 +1,5 @@
 data
+lenet_*
 .ipynb_checkpoints
 *.h5
 models

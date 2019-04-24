@@ -93,11 +93,10 @@ My final model consisted of the following layers:
 | Max\_pooling\_1	      	| 2x2 stride,  outputs 14x14x6				|
 | Convolution_2 5x5	    | 1x1 stride, valid padding, outputs 10x10x16					|
 | RELU_2					|												|
-| Max\_pooling\_2	      	| 2x2 stride,  outputs 5x5x16
-    |
+| Max\_pooling\_2			| 2x2 stride,  outputs 5x5x16					|
 | 4 Fully connected (with Dropout) | Size: 400 -> 120 -> 84 -> 43						|
-| Softmax				|        			
- 
+| Softmax				|					
+
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
